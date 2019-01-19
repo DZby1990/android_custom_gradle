@@ -26,6 +26,7 @@
 这里我们直接创建一个android module，因为as中并没有直接提供给我们一个创建gradle插件的方法。但是并没有什么关系，我们只需要删除用不着的目录，再修改build.gradle就可以了。
 在创建完module之后，我们需要删除大部分的文件夹，就剩一个build.gradle，然后创建groovy文件夹用来存放groovy代码，再创建一个resources文件夹。这个文件夹是什么用处，稍后会有详细介绍。
 在经过上述处理之后，我们的工程已经变成了如下图所示：
+
  ![image](https://github.com/DZby1990/android_custom_gradle/blob/master/pic/1.png "")（请忽略.gitignore文件）
  
 #### 3.	resources文件夹
